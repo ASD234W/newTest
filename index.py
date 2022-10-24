@@ -12,4 +12,4 @@ with open("main.html",'rb') as fp:
     st=st.replace(b"###tag1###",msg.encode())
     st=st.replace(b"###tag2###",msg1)
     sys.stdout.buffer.write(st)
-sys.stdout.flush
+sys.stdout.flush()
